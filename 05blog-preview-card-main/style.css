@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: solid 1px;
+    box-shadow: 5px 5px 0px hsl(0, 0%, 7%);
+    border-radius: 10px;
+}
+
+.image {
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.category{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    margin-left: 1rem;
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.date {
+    margin: 0.5rem 0 0.5rem 1rem;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.title{
+    margin: 0.5rem 0 1rem 1rem;
+    font-size: medium;
+    font-weight: 800;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.desc {
+    margin: 0 1rem 1rem 1rem;
+    font-size: x-small;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 1rem;
+}
+
+.author .avatar {
+    height: 30px;
+}
+
+.author .name {
+    margin: 0 0.5rem;
+    font-size: xx-small;
+    font-weight: 700;
+}
+
+.attribution { 
+    margin: 2rem;
+    font-size: 11px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
