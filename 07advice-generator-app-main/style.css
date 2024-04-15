@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.card {
+    width: 300px;
+    height: fit-content;
+    background-color: #313a49;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .head {
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: hsl(150, 100%, 66%);
+    padding: 1rem 0;
+    letter-spacing: 2px;
+}
+
+.card .advice {
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    color: hsl(193, 38%, 86%);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card .divider{
+    width: 100%;
+}
+
+.card .dice {
+    position: relative;
+    bottom: -40px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    width: fit-content;
+    background-color: hsl(150, 100%, 66%);
+}
+
+.dice :hover {
+    box-shadow: 0 0 20px 0px hsl(150, 100%, 66%);
+}
+
+.dice img {
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: aliceblue;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
